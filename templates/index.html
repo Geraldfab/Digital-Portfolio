@@ -47,7 +47,12 @@
             </div>
             <div class="hero-visual">
                 <div class="profile-card">
-                    <div class="profile-placeholder">
+                    <!-- Replace 'profile.jpg' with your image filename -->
+                    <img src="{{ url_for('static', filename='images/profile.jpg') }}" 
+                         alt="{{ data.name }}" 
+                         class="profile-image"
+                         onerror="this.style.display='none'; document.querySelector('.profile-placeholder').style.display='flex';">
+                    <div class="profile-placeholder" style="display: none;">
                         <i class="fas fa-user"></i>
                     </div>
                 </div>
@@ -66,7 +71,11 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <div class="image-placeholder">
+                    <img src="{{ url_for('static', filename='images/about.jpg') }}" 
+                         alt="{{ data.name }}" 
+                         class="about-img"
+                         onerror="this.style.display='none'; document.querySelector('.image-placeholder').style.display='flex';">
+                    <div class="image-placeholder" style="display: none;">
                         <i class="fas fa-user"></i>
                     </div>
                 </div>

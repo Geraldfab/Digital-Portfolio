@@ -279,6 +279,15 @@ section {
     position: relative;
 }
 
+.profile-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--shadow-lg);
+    animation: fadeInRight 1s ease;
+}
+
 .profile-placeholder {
     width: 350px;
     height: 350px;
@@ -332,6 +341,14 @@ section {
 
 .about-image {
     animation: fadeInLeft 1s ease;
+}
+
+.about-img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
 }
 
 .image-placeholder {
