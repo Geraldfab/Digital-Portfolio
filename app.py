@@ -102,32 +102,14 @@ PORTFOLIO_DATA = {
             "image": "project1"
         },
         {
-            "title": "Task Management App",
+            "title": "Grades & Schedules Portal",
             "category": "Productivity Tool",
-            "description": "Collaborative task management application with real-time updates, Kanban boards, and team collaboration features.",
-            "tech": ["JavaScript", "Node.js", "MongoDB", "Socket.io"],
+            "description": "Useful tool to view your grades and schedules in your chosen program with added tools for some related activities",
+            "tech": ["Python", "Flask"],
             "github": "https://github.com/yourusername/taskmanager",
-            "live": "https://taskmanager-demo.com",
+            "live": "https://myportal11.pythonanywhere.com",
             "image": "project2"
         },
-        {
-            "title": "Portfolio Website Builder",
-            "category": "SaaS Application",
-            "description": "A platform that allows users to create beautiful portfolio websites with customizable templates and themes.",
-            "tech": ["Python", "Django", "Vue.js", "AWS"],
-            "github": "https://github.com/yourusername/portfolio-builder",
-            "live": "https://portfolio-builder-demo.com",
-            "image": "project3"
-        },
-        {
-            "title": "Weather Dashboard",
-            "category": "Web Application",
-            "description": "Real-time weather tracking application with forecasts, interactive maps, and location-based alerts.",
-            "tech": ["JavaScript", "React", "OpenWeather API", "Leaflet"],
-            "github": "https://github.com/yourusername/weather-app",
-            "live": "https://weather-demo.com",
-            "image": "project4"
-        }
     ],
     
     # Services
