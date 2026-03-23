@@ -179,9 +179,11 @@
                 {% for project in data.projects %}
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
+                        <!-- Use local image from static/images/ -->
+                        <img src="{{ url_for('static', filename='images/' + project.image + '.jpg') if project.image else '' }}"
+                             alt="{{ project.title }}"
+                             class="project-img"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     </div>
                     <div class="project-content">
                         <span class="project-category">{{ project.category }}</span>
