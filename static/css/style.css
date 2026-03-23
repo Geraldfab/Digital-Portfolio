@@ -4,15 +4,15 @@
 
 /* CSS Variables */
 :root {
-    --primary-color: #6C63FF;
+    --primary-color: #800000;
     --secondary-color: #2D2D39;
-    --accent-color: #00D9FF;
+    --accent-color: #FFD700;
     --text-color: #333333;
     --text-light: #666666;
     --bg-color: #FFFFFF;
     --bg-light: #F8F9FA;
     --bg-dark: #1A1A2E;
-    --gradient-primary: linear-gradient(135deg, #6C63FF 0%, #8B5CF6 100%);
+    --gradient-primary: linear-gradient(135deg, #800000 0%, #A52A2A 100%);
     --gradient-dark: linear-gradient(135deg, #1A1A2E 0%, #2D2D39 100%);
     --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.1);
