@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Portfolio Data - Edit this information as needed
 PORTFOLIO_DATA = {
     # Personal Information
-    "name": "Your Name",
+    "name": "Fabs Techz",
     "title": "Full Stack Developer | Designer | Creative Professional",
     "tagline": "Building digital experiences that matter",
     "about": """
@@ -23,10 +23,10 @@ PORTFOLIO_DATA = {
     
     # Contact Information
     "contact": {
-        "email": "your.email@example.com",
-        "phone": "+1 (555) 123-4567",
-        "location": "San Francisco, CA",
-        "website": "www.yourwebsite.com"
+        "email": "geraldfabre282@gmail.com",
+        "phone": "+63 915-149-1270",
+        "location": "Cabadiangan, Kadingilan, Bukidnon",
+        "website": "www.streamflix.pythonanywhere.com"
     },
     
     # Social Links
@@ -35,7 +35,7 @@ PORTFOLIO_DATA = {
         "linkedin": "https://linkedin.com/in/yourusername",
         "twitter": "https://twitter.com/yourusername",
         "instagram": "https://instagram.com/yourusername",
-        "facebook": "https://facebook.com/yourusername"
+        "facebook": "https://facebook.com/geraldfabre16"
     },
     
     # Skills
@@ -77,28 +77,28 @@ PORTFOLIO_DATA = {
     # Education
     "education": [
         {
-            "institution": "University of Technology",
-            "degree": "Bachelor of Science in Computer Science",
-            "duration": "2014 - 2018",
+            "institution": "Torres Capitol College Inc.",
+            "degree": "Bachelor of Science in Information Technology",
+            "duration": "2025 - 2029",
             "details": "Graduated with honors, specialized in Software Engineering"
         },
         {
-            "institution": "Tech Academy",
+            "institution": "San Andres National High School",
             "degree": "Web Development Bootcamp",
-            "duration": "2018",
-            "details": "Intensive 12-week program focusing on modern web technologies"
+            "duration": "2023-2025",
+            "details": "Graduated with honors"
         }
     ],
     
     # Projects
     "projects": [
         {
-            "title": "E-Commerce Platform",
+            "title": "Streamflix (Netflix-Alternative) streaming site",
             "category": "Web Application",
-            "description": "A full-featured online shopping platform with payment integration, inventory management, and admin dashboard.",
+            "description": "A fully-free website to watch all your favorite movies, tv-shows, and anime in one destination.",
             "tech": ["Python", "Flask", "React", "PostgreSQL", "Stripe"],
             "github": "https://github.com/yourusername/ecommerce",
-            "live": "https://ecommerce-demo.com",
+            "live": "https://streamflix.pythonanywhere.com",
             "image": "project1"
         },
         {
