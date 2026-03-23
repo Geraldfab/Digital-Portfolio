@@ -2,17 +2,17 @@
    Digital Portfolio - Main Stylesheet
    ============================================ */
 
-/* CSS Variables */
+/* CSS Variables - Eye-catching modern theme */
 :root {
-    --primary-color: #800000;
+    --primary-color: #FF6B35;
     --secondary-color: #2D2D39;
-    --accent-color: #FFD700;
+    --accent-color: #00C9A7;
     --text-color: #333333;
     --text-light: #666666;
     --bg-color: #FFFFFF;
     --bg-light: #F8F9FA;
     --bg-dark: #1A1A2E;
-    --gradient-primary: linear-gradient(135deg, #800000 0%, #A52A2A 100%);
+    --gradient-primary: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
     --gradient-dark: linear-gradient(135deg, #1A1A2E 0%, #2D2D39 100%);
     --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1148,6 +1148,48 @@ section {
 .footer-social a:hover {
     background: var(--primary-color);
     transform: translateY(-5px);
+}
+
+/* ============================================
+   Floating Contact Button
+   ============================================ */
+.floating-contact {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+    z-index: 999;
+    transition: all 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+}
+
+.floating-contact:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
+}
+
+.floating-contact i {
+    font-size: 1.2rem;
+}
+
+.floating-contact span {
+    font-weight: 600;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 /* ============================================
